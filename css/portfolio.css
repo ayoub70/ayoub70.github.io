@@ -262,3 +262,7 @@ map {
   border-color: white;
   border-style: solid;
 }
+.showcase a {
+  width: 650px;
+  height: 500px;
+}
