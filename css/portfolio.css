@@ -72,7 +72,7 @@ img {
     'showcase showcase top-box-b';
 }
 
-/* Showcase */
+/* Showcase */ 
 .showcase {
   grid-area: showcase;
   height: 400px;
