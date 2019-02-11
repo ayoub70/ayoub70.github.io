@@ -65,6 +65,7 @@ img {
 /* Top Container */
 .top-container {
   display: grid;
+  width: 100%;
   grid-gap: 20px;
   grid-template-areas:
     'showcase showcase top-box-a'
@@ -74,7 +75,8 @@ img {
 /* Showcase */
 .showcase {
   grid-area: showcase;
-  min-height: 400px;
+  height: 400px;
+
   background: url(../images/home.jpg);
   background-size: cover;
   background-position: center;
@@ -86,6 +88,7 @@ img {
   box-shadow: var(--shadow);
   border-style: solid;
   border-color: white;
+
 }
 
 .showcase h1 {
@@ -103,7 +106,7 @@ img {
 .showcase a{
   height: 0;
   width: 0;
-  
+
 }
 
 /* Top Box */
